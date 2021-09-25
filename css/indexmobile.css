@@ -1,0 +1,118 @@
+body {
+    background-image: url("/order-summary-component-main/images/pattern-background-desktop.svg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.caixadetexto {
+    text-align: center;
+    font-size:16px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 450px;
+    height: 800px;
+
+}
+
+h1 {
+    color:hsl(223, 47%, 23%);
+    padding-bottom: 14px;
+}
+
+.texto {
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 14px;
+}
+
+.assinatura {
+    background-color: hsl(230, 75%, 98%);
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width:350px;
+    margin:0 auto;
+    border-radius: 10px;
+
+}
+
+
+.icone {
+    padding:20px;
+
+}
+.text-container span {
+    display:block; 
+
+}
+
+.valor {
+    color: hsl(228, 16%, 55%);
+}
+
+.container-confirme {
+    margin-right: 20px;
+    margin-left: auto;
+
+}
+
+.confirme:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.botaoum {
+    background-color: hsl(245, 75%, 52%);
+    color:#FFF ;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.botaoum:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.botaodois {
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    height: 50px;
+    width: 350px;
+    border: none;
+    padding-top:20px;
+    font-weight: 700;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.ilustracao {
+    border-radius: 20px 20px 0 0;
+}
+
+.botoes {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 54px;
+}
+
+
+
+
+
